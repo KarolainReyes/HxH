@@ -106,8 +106,8 @@ body {
     text-transform: none;
     display: inline-block;
     transition: backround-color 0.3 ease;
-    margin-left: 12vh;
-    margin-right: 50%;
+    width: 15vh;
+    margin: 5%;
 }
 
 .boton-nen:hover {
@@ -116,4 +116,13 @@ body {
 
 .boton-nen:active {
     background-color: #4d3a18;
+}
+
+#arcos-argumentales {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #57281a;
+    width: 100vw;
+    height: 100vh;
 }
