@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    background-color: rgb(102, 226, 210);
+    overflow: hidden;
+}
+
+.navbar-lista {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-item {
+    float: left;
+}
+
