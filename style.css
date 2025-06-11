@@ -3,6 +3,7 @@ body {
     padding: 0;
 }
 
+/*pagina principal*/
 
 .navbar {
     background-color: rgb(102, 226, 210);
@@ -14,10 +15,47 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: end;
 }
 
 .navbar-item {
     float: left;
 }
 
+.navbar-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+#pag-inicio {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./IMG/fondopagprincip.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#pag-inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo-inicio {
+    width: 40%;
+    align-self: center;
+    margin: 2vh;
+}
+
+.parrafo-inicio {
+    font-size: 24px;
+    align-self: center;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
