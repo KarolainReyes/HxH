@@ -31,6 +31,8 @@ body {
 }
 
 #pag-inicio {
+    margin: 0;
+    padding: 0;
     position: relative;
     width: 100vw;
     height: 100vh;
@@ -53,9 +55,65 @@ body {
 }
 
 .parrafo-inicio {
-    font-size: 24px;
+    font-size: 3vh;
     align-self: center;
     color: white;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+#nen {
+    margin: 0;
+    padding: 0;
+    position:relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./IMG/fondo-nen-gon.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#nen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo-nen {
+    padding: 2vh;
+    margin: 1vh;
+    font-size: 15vh;
+    color: white;
+}
+
+.parrafo-nen {
+    margin: 2%;
+    align-self: flex-start;
+    font-size: 3vh;
+    color: white;
+}
+
+.boton-nen {
+    background-color: #c5902e;
+    color: black;
+    padding: 1vh 2vh;
+    border: solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: none;
+    display: inline-block;
+    transition: backround-color 0.3 ease;
+    margin-left: 12vh;
+    margin-right: 50%;
+}
+
+.boton-nen:hover {
+    background-color: #8b6b2f;
+}
+
+.boton-nen:active {
+    background-color: #4d3a18;
 }
